@@ -1,0 +1,2 @@
+# LEAGUE10Min
+LOL
