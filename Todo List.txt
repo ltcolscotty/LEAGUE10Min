@@ -1,0 +1,35 @@
+Goal: Determine what to do in the first 10 minutes of a LoL match
+based on stats gathered
+
+ToDo list:
+- Come up with what to compare and analyze
+
+Visualization list format
+[Name]
+[X Value] [Y Value] [Type of chart/s] [What are we looking for?] [Sample data or no?]
+
+Visualization List:
+
+---
+totems placed to kills
+
+From Winning games ONLY:
+blueTotemsPlaced : blueKills
+redTotemsPlaced : redKills
+
+Chart types: scatterplot (Consider switching to box plot) and box plot (Analysis better)
+Purpose: Looking for a correlation between totems and kills
+
+No sample data needed
+
+---
+Won games to number of elite monsters killed
+
+[blueWins = 1: blueEliteMonsters] : [blueWins = 0 : blueElite Monsters]
+[blueWins = 1 : redEliteMonsters] : [blueWins = 1 : redElite Monsters]
+
+Charts: Vertical bar graph
+Purpose: See if elite monsters factor into victory strongly
+
+No sample data needed
+---
